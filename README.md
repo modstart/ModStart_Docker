@@ -29,9 +29,9 @@
 
 ```shell
 # 国外
-git clone https://github.com/modstart/ModStartDocker.git
+git clone https://github.com/modstart/ModStart_Docker.git
 # 国内
-git clone https://gitee.com/modstart/ModStartDocker.git
+git clone https://gitee.com/modstart/ModStart_Docker.git
 ```
 
 **Windows参考**
@@ -46,7 +46,7 @@ git clone https://gitee.com/modstart/ModStartDocker.git
 
 
 ```shell
-cd ModStartDocker
+cd ModStart_Docker
 # 国外
 git clone https://github.com/modstart/ModStartCMS.git modstart
 # 国内
