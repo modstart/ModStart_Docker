@@ -14,7 +14,7 @@ services:
       - ms_network
 
   ms_php56:
-    image: modstart/php56:1.0.0
+    image: modstart/php56:1.1.0
     volumes:
       - "./modstart:/data/website/modstart:rw"
     links:
