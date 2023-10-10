@@ -1,1 +1,1 @@
-*  *  *  *  *  www-data /usr/local/bin/php /data/website/modstart/artisan schedule:run > /tmp/modstart.log 2>&1
+*  *  *  *  *  www-data /usr/local/bin/php /data/website/modstart/artisan schedule:run > /tmp/modstart-schedule-run.log 2>&1
