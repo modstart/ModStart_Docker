@@ -22,6 +22,17 @@ services:
     networks:
       - ms_network
 
+  ms_supervisor_php56:
+    image: modstart/supervisor_php56:1.0.0
+    volumes:
+      - "./modstart:/data/website/modstart:rw"
+      - "./cron.d:/etc/cron.d:rw"
+      - "./supervisord.d:/etc/supervisord.d:rw"
+    links:
+      - ms_mysql
+    networks:
+      - ms_network
+
   ms_mysql:
     image: mysql:5.6.29
     environment:
